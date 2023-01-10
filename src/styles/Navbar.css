@@ -9,8 +9,15 @@ ul {
     flex-direction: row;
 }
 
-.home {
+.nav-home {
     padding-left: 30px;
     color: #FFF;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-home:hover {
+    transition: 500ms;
+    color: #f1b858;
 }
