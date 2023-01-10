@@ -3,8 +3,13 @@ import "../styles/Navbar.css"
 
 const Navbar = () => {
     return (
-        <div>Continuo tomorrow</div>
-
+        <div className="container-nav">
+            <nav>
+                <ul>
+                    <li><a className="home" href="#">AAAA</a></li>
+                </ul>
+            </nav>
+        </div>
     )
 }
 

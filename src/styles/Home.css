@@ -1,29 +1,115 @@
-.container-img {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: -150px;
-}
-
-.img-profile {
-    width: 300px;
-    height: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.img-bottom {
+.container-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 75px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #F2F2F2;
-    font-size: 24px;
+    width: 100vw;
+    height: 95vh;
+}
+
+.card {
+    position: absolute;
+    margin-top: -15vh;
+    width: 400px;
+    height: 400px;
+    transition: 200ms;
+}
+
+.card .i-profile {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card .i-profile img {
+    width: 100%;
+    transition: 700ms;
+}
+
+.card:hover .i-profile img {
+    opacity: 0.5;
+    transform: translateX(30%);
+}
+
+.card:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    outline: 3px solid white;
+    transition: 200ms;
+}
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #ffc107;
+    transition: 0.7s;
+    transform-origin: left;
+    transform: perspective(3000px) rotateY(-90deg);
+}
+
+.card:hover .details {
+    transform: perspective(3000px) rotateY(0deg);
+}
+
+.details {
+    border-radius: 10px;
+}
+
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    color: #ff3636;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.card .details .center h1 span {
+    font-size: 14px;
+    color: #262626;
+}
+
+.card .details .center p {
+    margin: 10px 0;
+    padding: 0;
+    color: #262626;
+}
+
+.card .details .center ul {
+    margin: 20px auto 0;
+    padding: 0;
+    display: table;
+}
+
+.card .details .center ul li {
+    list-style: none;
+    margin: 0 5px;
+    float: left;
+}
+
+.card .details .center ul li a {
+    display: block;
+    background: #262626;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: 700ms;
+}
+
+.card .details .center ul li a:hover {
+    background: #ff3636;
+    transition: 700ms;
 }
