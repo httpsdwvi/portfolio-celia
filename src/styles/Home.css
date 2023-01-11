@@ -44,7 +44,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 75%;
+    width: 100%;
     height: 100%;
     background: #f1b858;
     transform-origin: left;
@@ -71,7 +71,7 @@ img {
 h1 {
     margin: 0;
     padding: 0;
-    color: #ff3636;
+    color: #D76161;
     line-height: 20px;
     font-size: 20px;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ p {
 
 .card .details .center ul li {
     list-style: none;
-    margin: 0 5px;
+    margin: 0 15px;
     float: left;
 }
 
