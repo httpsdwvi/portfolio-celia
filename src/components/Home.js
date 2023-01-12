@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/img/p-profile.png"
+import profile from "../assets/img/p-profile.webp"
 import '../styles/Home.css'
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="details">
                     <div className="center">
                         <h1>Célia Santos<br></br><span> Sócia </span></h1>
-                        <p> Casada e mãe de 2 filhos, sou formada em Turismo com experiências profissionais em grandes redes hoteleiras em São Paulo. Decidi sair do ramo hoteleiro e iniciei um novo empreendimento, o sonho do próprio negócio </p>
+                        <p> Casada e mãe de 2 filhos, sou formada em Turismo com experiências profissionais em grandes redes hoteleiras em São Paulo. Decidi sair do ramo hoteleiro e iniciei um novo empreendimento, o sonho do próprio negócio. </p>
                         <h4> Entre em contato: </h4>
                         <ul>
                             <li><a href="https://www.linkedin.com/in/celia-santos/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
