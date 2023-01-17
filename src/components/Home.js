@@ -5,8 +5,8 @@ import '../styles/Home.css'
 const Home = () => {
 
     return (
-        <div className="container-card">
-            <div className="card">
+        <main className="container-card">
+            <article className="card">
                 <div className="i-profile">
                     <img src={profile} alt="Celia - Foto de perfil"/>
                 </div>
@@ -22,8 +22,8 @@ const Home = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+            </article>
+        </main>
     )
 }
 
